@@ -4,10 +4,12 @@ export default function Footer(){
 
     return(
         <div className="footer">
-            <p>This is footer and 2+2={2+5} </p>
-            <Fbutton1 text="Contact Us" />
-            <Fbutton1 text="About Us" />
-            <Fbutton1 text="FAQ" />
+            <form method="post">
+                <input type="text" className='input1' placeholder='name' />
+                <input type="text" className='input2' placeholder='team' />
+                <input type="text" className='input3' placeholder='score' />
+                <input type="submit" value="submit" />
+            </form>
         </div>
     );
 
